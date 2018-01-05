@@ -6,7 +6,7 @@ For more Java and Spring Boot related tutorial visit my blog
 http://www.codepuran.com/
 
 
-TO run the project:
+To run the project:
 
 Run project as a Java Application in the eclipse by executing class with the main method SpringBootWebApplication.
 
