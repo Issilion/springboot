@@ -12,8 +12,12 @@ public class HelloWorldController {
   private String message = "Hello World";
 
   @RequestMapping("/")
-  public String welcome(Model model){
-    model.addAttribute("message", this.message);
+  public String welcomeq(Model model) {
     return "welcome";
   }
+
+    @RequestMapping("/get-data")
+    public String getData() {
+        return "welcome";
+    }
 }
