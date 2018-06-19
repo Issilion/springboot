@@ -24,7 +24,7 @@ public class HelloWorldController {
     private String message = "Hello World";
 
     @RequestMapping("/")
-    public String welcomeq(Model model) {
+    public String welcome(Model model) {
     return "welcome";
     }
 
